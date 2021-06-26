@@ -2,6 +2,7 @@ const http = require('http');
 const express = require('express');
 const socketio = require('socket.io');
 const cors = require('cors');
+const port = 5000;
 
 const { addUser, removeUser, getUser, getUsersInRoom } = require('./users');
 
